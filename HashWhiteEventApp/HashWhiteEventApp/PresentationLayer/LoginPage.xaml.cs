@@ -29,5 +29,10 @@ namespace HashWhiteEventApp.PresentationLayer
                 DisplayAlert("Info","Login Success","Cancel");
             }
         }
+
+        async void OnRegisterButtonClicked(object sender, EventArgs args)
+        {
+            await Navigation.PushAsync(new RegisterUser());
+        }
     }
 }
