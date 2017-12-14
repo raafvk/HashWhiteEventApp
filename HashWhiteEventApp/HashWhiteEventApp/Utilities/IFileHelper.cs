@@ -13,6 +13,6 @@ namespace HashWhiteEventApp.Utilities
     public interface IFileHelper
     {
         string GetLocalFilePath(string filename);
-
+        string GetAssetFileContenet(string filename);
     }
 }

@@ -49,6 +49,7 @@
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Utilities\IFileHelper.cs" />
+    <Compile Include="Utilities\IFirebaseHandler.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="GettingStarted.Xamarin" />
